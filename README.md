@@ -14,7 +14,7 @@ https://github.com/SoldierCity/ReconSync
 - ARK: Survival Ascended
 - Rust
 
-### MVP Goals (Phase 2)
+### Minimum Viable Product (MVP) Goals (Phase 2)
 - `/status`, `/backup now` commands
 - Basic server uptime and crash monitoring
 - Discord alert messages
