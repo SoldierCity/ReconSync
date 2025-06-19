@@ -1,0 +1,6 @@
+discord.py
+fastapi
+httpx
+pyyaml
+pydantic
+apscheduler
