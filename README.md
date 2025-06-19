@@ -97,13 +97,13 @@ You are free to use, modify, and host ReconSync yourself. Hosted ReconSync servi
 
 ---
 
-## 📬 Contributing
+## Contributing
 
 We're currently building out the core infrastructure. Contributions are welcome once the v0.1.0 release is stabilized.
 
 ---
 
-## 👾 Community
+## Community
 
 - Website: https://soldiercity.io
 - Discord: *coming soon*
