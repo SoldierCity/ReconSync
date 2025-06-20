@@ -36,7 +36,7 @@ This document defines the technology choices and deployment strategy for the **R
 ### Agent Deployment
 - **Method**: ZIP bundle for MVP (or Docker)
 - **Hosting**: Linux or Windows game servers via `systemd`, `Task Scheduler`, or `Docker`
-- **Startup**: `python3 agent/serve.py`
+- **Startup**: `python3 agent/agent.py`
 - **Config**: Requires `config.yaml` per server, located in `/agent/`
 - **Auth**: Pre-shared token in config, passed via `Authorization: Bearer`
 
