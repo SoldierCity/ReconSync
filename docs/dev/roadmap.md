@@ -28,7 +28,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 - [X] Draft initial game profiles (ARK, Rust)
 - [X] Design bot/agent protocol
 - [X] Select tech stack and deployment model
-- [ ] Expand `architecture.md` and `roadmap.md` with upcoming features
+- [X] Expand `architecture.md` and `roadmap.md` with upcoming features
 
 ---
 

@@ -132,7 +132,12 @@ Refer to the full [tech stack and deployment model](tech_stack.md) for rationale
 - **Planned Features**:
   - `/restore` command for backup recovery
   - Cloud backup destinations (S3, Dropbox, B2)
+  - Web dashboard & hosted UI
+  - JWT-based authentication with expiration and issuer verification
   - Auto-registration for agents and config templates
+  - Multiple server support per bot
+  - Game profile templates and auto-detection
+  - Discord notifications (join/death/crash)
 - **Design Hooks**:
   - Pluggable game templates in `games/`
   - Add-on monitors (e.g. player join/death/crash)
