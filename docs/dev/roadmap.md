@@ -76,8 +76,10 @@ The project will be built in clear phases, starting with an MVP designed for qui
 
 ### Tasks
 - [ ] Populate `.gitignore` with Python defaults and sample `.env.example` values; create `requirements.txt`
+- [ ] Fill `.env.example` with placeholder variables and document them in README
 - [ ] Setup `install.sh` and `install.bat` to create virtualenvs and install dependencies
 - [ ] Add basic test scripts or pytest stubs
+- [ ] Add test to load each game config with `yaml.safe_load`
 - [ ] Versioning and changelog standards
 - [ ] Create `schema.yaml` definition for config files
 - [ ] Add automated validation using `jsonschema` or equivalent
