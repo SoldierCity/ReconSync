@@ -67,7 +67,7 @@ Refer to the full [tech stack and deployment model](tech_stack.md) for rationale
 
 ## 3. Communication Protocol
 
-- **Current Status**: TBD; see [decision-log.md](decision-log.md)
+- **Current Status**: Stable for MVP, REST-based HTTP API; see [bot-agent-protocol.md](bot-agent-protocol.md)
 - **Authentication**: Pre-shared tokens or signed JWTs
 - **Message Types**:
 - `heartbeat`, `backup_result`, `crash_alert`, etc.
