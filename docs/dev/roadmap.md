@@ -99,7 +99,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 **Goal:** Attract early users, drive adoption, and collect feedback.
 
 ### Tasks
-- [ ] Landing page at `SoldierSity.io/ReconSync`
+- [ ] Landing page at `SoldierCity.io/ReconSync`
 - [ ] Create a roadmap of future functionality that is advertised to the user base
 - [ ] Register bot on Top.gg and Discord directories
 - [ ] Announce in game server admin subreddits & Discords
