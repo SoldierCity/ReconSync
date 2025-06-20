@@ -37,7 +37,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 **Goal:** Create a working MVP with basic backup and monitoring via Discord.
 
 ### Agent (`agent/`)
-- [ ] Create `ReconSync` public GitHub repo
+- [X] Create `ReconSync` public GitHub repo
 - [ ] Scaffold `agent/` directory with placeholders: `serve.py`, `backup.py`, `monitor.py`
 - [ ] Populate placeholder modules with TODOs or minimal code
 - [ ] `backup.py`: performs file zips and local backups
