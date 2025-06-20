@@ -56,7 +56,10 @@ Track changes to architecture, design docs, and config formats here.
 
 ---
 
-### [TBD] Backup Scheduling Format Change
+### [2025-06-19] Backup Scheduling Format Change
 
-- Moving from cron strings to structured config object
-- Pending update to all game_profiles
+- Replaced cron strings with structured schedule objects
+- Documented new format in `decision-log.md` and sample game profiles
+
+---
+

@@ -29,6 +29,8 @@ The project will be built in clear phases, starting with an MVP designed for qui
 - [X] Design bot/agent protocol
 - [X] Select tech stack and deployment model
 - [X] Expand `architecture.md` and `roadmap.md` with upcoming features
+- [X] Resolve all `TBD` placeholders in documentation
+- [X] Finalize changelog entry for backup schedule format
 
 ---
 
@@ -152,7 +154,24 @@ The project will be built in clear phases, starting with an MVP designed for qui
 - [ ] Auto-detect profiles based on ports/processes
 - [ ] Optional GUI or hosted dashboard
 - [ ] Contributor guide and code of conduct
-- [ ] `SECURITY.md` for responsible disclosures   
+- [ ] `SECURITY.md` for responsible disclosures
+
+---
+
+## Upcoming Features
+
+The following items highlight functionality planned for post-MVP releases:
+
+- `/restore` command from previous backups
+- Cloud backup targets (S3, Dropbox, B2)
+- Web dashboard & hosted UI
+- JWT-based authentication for agents and bot
+- Agent auto-registration and dynamic command support
+- Multiple server management per bot
+- Discord notifications for joins, deaths, or crashes
+- Game profile templates with auto-detection
+- Secret manager integration for token storage
+- Premium SaaS hosting with license key support
 
 ---
 
