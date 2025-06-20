@@ -1,0 +1,23 @@
+# Sample configuration for Rust server
+
+game: rust
+server_id: rust-demo
+map: Procedural Map
+
+backup:
+  path: /home/rustserver/serverdata
+  schedule:
+    type: cron
+    expression: "0 * * * *"
+    timezone: "UTC"
+  retention_days: 7
+
+monitor:
+  check_interval: 60
+  crash_threshold: 3
+
+alerts:
+  enabled: true
+
+auth:
+  token: CHANGE_ME

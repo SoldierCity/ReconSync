@@ -1,0 +1,23 @@
+# Sample configuration for ARK: Survival Ascended
+
+game: ark
+server_id: ark-demo
+map: TheIsland
+
+backup:
+  path: /home/arkserver/Saved
+  schedule:
+    type: cron
+    expression: "0 */6 * * *"
+    timezone: "UTC"
+  retention_days: 7
+
+monitor:
+  check_interval: 60
+  crash_threshold: 3
+
+alerts:
+  enabled: true
+
+auth:
+  token: CHANGE_ME

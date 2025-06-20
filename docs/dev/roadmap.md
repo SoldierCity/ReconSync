@@ -41,7 +41,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 ### Agent (`agent/`)
 - [X] Create `ReconSync` public GitHub repo
 - [X] Scaffold `agent/` directory with placeholders: `agent.py`, `backup.py`, `monitor.py`
-- [ ] Populate placeholder modules with TODOs or minimal code
+- [x] Populate placeholder modules with TODOs or minimal code
 - [ ] `backup.py`: performs file zips and local backups
 - [ ] `monitor.py`: detects server status, ports, resources
 - [ ] Load and validate `config.yaml`
