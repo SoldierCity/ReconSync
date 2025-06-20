@@ -5,7 +5,7 @@
 
 https://github.com/SoldierCity/ReconSync
 
-**ReconSync** is a modular, Discord-integrated bot-agent system for backing up and monitoring dedicated game servers like  **ARK: Survival Ascended**, **Rust**, and **Valheim**.
+**ReconSync** is a modular, Discord-integrated bot-agent system for backing up and monitoring dedicated game servers like **ARK: Survival Ascended**, **Rust**, and **Valheim**.
 
 It enables server admins to manage scheduled backups, monitor server health, and receive Discord alerts — all through simple slash commands.
 
