@@ -28,6 +28,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 - [X] Draft initial game profiles (ARK, Rust)
 - [X] Design bot/agent protocol
 - [X] Select tech stack and deployment model
+- [ ] Expand `architecture.md` and `roadmap.md` with upcoming features
 
 ---
 
@@ -38,6 +39,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 ### Agent (`agent/`)
 - [ ] Create `ReconSync` public GitHub repo
 - [ ] Scaffold `agent/` directory with placeholders: `serve.py`, `backup.py`, `monitor.py`
+- [ ] Populate placeholder modules with TODOs or minimal code
 - [ ] `backup.py`: performs file zips and local backups
 - [ ] `monitor.py`: detects server status, ports, resources
 - [ ] Load and validate `config.yaml`
@@ -48,6 +50,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 
 ### Discord Bot (`bot/`)
 - [ ] Scaffold `bot/` directory with `main.py`, command stubs, and `dispatcher.py
+- [ ] Add TODO comments in bot modules for future implementation
 - [ ] `main.py`: Discord bot with slash commands
 - [ ] `/backup now` command
 - [ ] `/status` command
@@ -58,6 +61,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 ### Config & Templates
 - [ ] `config.yaml` for each server
 - [ ] Game profiles: `ark.yaml`, `rust.yaml`
+- [ ] Populate `games/ark.yaml` and `games/rust.yaml` with sample data
 - [ ] Test on both Linux and Windows
 
 ### Documentation & Versioning
@@ -71,13 +75,14 @@ The project will be built in clear phases, starting with an MVP designed for qui
 **Goal:** Ensure project is maintainable, testable, and developer-friendly.
 
 ### Tasks
-- [ ] `.gitignore`, `.env.example`, `requirements.txt`
-- [ ] Setup `install.sh` and `install.bat` for quick installs
+- [ ] Populate `.gitignore` with Python defaults and sample `.env.example` values; create `requirements.txt`
+- [ ] Setup `install.sh` and `install.bat` to create virtualenvs and install dependencies
 - [ ] Add basic test scripts or pytest stubs
 - [ ] Versioning and changelog standards
 - [ ] Create `schema.yaml` definition for config files
 - [ ] Add automated validation using `jsonschema` or equivalent
 - [ ] Write unit test to validate `games/*.yaml` against schema
+- [ ] Set up CI to run linting and tests on each commit
 
 ---
 
@@ -87,6 +92,7 @@ The project will be built in clear phases, starting with an MVP designed for qui
 
 ### Tasks
 - [ ] `README.md` with clear features and screenshots
+- [ ] Add license notice and link in `README.md`
 - [ ] User documentation in `docs/user/`
 - [ ] Per-game setup guides
 - [ ] GitHub Issues or Project Board
